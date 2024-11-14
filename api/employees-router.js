@@ -3,7 +3,6 @@ const router = express.Router()
 
 module.export = router
 
-const employee = require(`../employees.js`);
 const employees = require("../employees.js");
 
 router.get("/", (req, res) => {
