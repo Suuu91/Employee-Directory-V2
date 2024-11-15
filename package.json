@@ -1,18 +1,11 @@
 {
-  "name": "32-employee_directory_v2",
-  "version": "1.0.0",
-  "description": "The organization is pleased with your work in creating the proof-of-concept employee-management API. Take your work to the next level by adding middleware and organizing your endpoints into routers!",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.0"
-  },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "prisma": "^5.22.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   }
 }
